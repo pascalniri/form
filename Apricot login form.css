@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+ 
+h1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: fantasy;
+}
+.login{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    transform: translateY(100px);
+    margin-top: 3px;
+   
+}
+.login input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    outline: none;
+    font-family: fantasy;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+.login input:hover{
+
+    padding-right: 50px;
+    transition: .8s;
+}
+
+
+.button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    margin-top: 15px;
+}
+.button button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: fantasy;
+    border: 1px solid orange;
+}
+.button button:hover{
+    background-color: orange;
+    transition: .8s;
+    
+}
+.account{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    margin-top: 40px;
+   
+}
+.account button{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.account button:hover{
+    color: orange;
+    transition: .4s;
+}
